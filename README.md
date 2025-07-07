@@ -1,2 +1,2 @@
-# Capstone-Mega-CD-Pipeline
-CD repo for the capstone mega project 
+# Enterprise-Project-Mega-CD-Pipeline
+CD Repo for the Enterprise-Grade-Devops-Project
