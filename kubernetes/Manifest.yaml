@@ -150,7 +150,8 @@ spec:
     spec:
       containers:
         - name: bankapp
-          image: vktechie21/bankapp:v33
+          image: vktechie21/bankapp:REPLACE_TAG     # <-- Will be replaced dynamically in CD pipeline
+          imagePullPolicy: Always                    # <-- Ensures always pulling latest image
           ports:
             - containerPort: 8080
           env:
